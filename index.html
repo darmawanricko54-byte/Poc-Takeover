@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PoC - Subdomain Takeover by Ricko</title>
+<style>
+  body { font-family: monospace; background: #0d1117; color: #c9d1d9; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; padding: 20px; }
+  .card { border: 1px solid #30363d; background: #161b22; padding: 30px; border-radius: 12px; max-width: 650px; width: 100%; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+  h1 { color: #f85149; font-size: 22px; }
+  .ok { color: #2ea043; font-weight: bold; }
+  code { background: #21262d; padding: 3px 6px; border-radius: 4px; color: #e3b341; }
+  hr { border: 0; border-top: 1px solid #30363d; margin: 20px 0; }
+  .footer { font-size: 12px; color: #8b949e; margin-top: 20px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>🔥 PoC: Subdomain Takeover</h1>
+  <p>Domain: <code>userresearch.dropbox.com</code></p>
+  <p>Status: <span class="ok">VULNERABLE - CloudFront Misconfiguration</span></p>
+  <hr>
+  <p>This page is hosted on <b>Vercel</b> and served via <b>AWS CloudFront</b>.</p>
+  <p>If you can see this page on <code>userresearch.dropbox.com</code>, it means the subdomain is fully controlled by an external party.</p>
+  <hr>
+  <p><b>Discovered & Reported by:</b><br>Ricko Darmawan<br>Intigriti - Dropbox Bug Bounty Program</p>
+  <p class="footer">This is a benign PoC. No malicious content. Contact: ricko - for remediation. Date: 2026</p>
+</div>
+</body>
+</html>
