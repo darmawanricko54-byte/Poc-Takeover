@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>PoC by Ricko - Viator Takeover</title>
+  <link>https://poctakeover.vercel.app</link>
+  <description>Bugcrowd PoC for feeds.travelblog.viator.com</description>
+  <item>
+    <title>Takeover PoC</title>
+    <link>https://poctakeover.vercel.app</link>
+    <description>Vulnerable to Feedburner takeover - darmawanricko54@gmail.com</description>
+  </item>
+</channel>
+</rss>
